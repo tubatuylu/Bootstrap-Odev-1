@@ -1,0 +1,78 @@
+.maintext{
+    font-size: 30px;
+    color:darkcyan;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 120px;
+}
+.jtext{
+    font-size: 25px;
+    color: rgb(3, 56, 39);
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.container{
+    align-items: center;
+}
+
+*{
+    background-color: #E9ECEF ;
+}
+.dtext{
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;;
+}
+
+.list{
+    list-style-type:none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+.btnin{ background-color:cadetblue;
+    margin-left: 525px;
+   
+}
+.heart{
+    position: absolute;
+    left:100px;
+    top: 90px;
+    width: 100px;
+    height: 90px;
+}
+
+.heart:before, .heart:after{
+    position: absolute;
+    content: "";
+    left: 8px;
+    top: 10;
+    width: 50px;
+    height: 80px;
+    background-color: red;
+    border-radius: 40px 40px 0 0;
+    transform:rotate(-45deg);
+    transfor-origin:0 100%;
+
+}
+
+.heart:after{
+    left:0 ;
+    transform:rotate(45deg);
+    transform-origin: 100% 100%;
+}
+
+.inftext{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.card{
+    margin:15px;
+
+}
